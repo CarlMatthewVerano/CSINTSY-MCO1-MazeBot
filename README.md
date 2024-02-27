@@ -55,5 +55,5 @@ Note the following things:
 - To get full points for this project, your bot should at least be complete (i.e., finds a solution if it exists).
 
 No need to create interfaces for:
-- Creating / editing a maze (maze configurations can just be specified through the text file, no need to have an editor)
+- Creating / editing a maze (maze configurations can just be specified through the text file, no need to have an editor).
 - Restarting the search after it is completed (we can just restart the program if we want to restart the search).
