@@ -13,7 +13,7 @@ configuration can be defined as a text file called maze.txt in the following for
 
 n\
 XXX\
-XXX
+XXX\
 XXX
 
 The first line of the text file contains a single integer 𝑛, the size of the maze. This is a followed by 𝑛
@@ -31,35 +31,21 @@ invalid maze.
 
 Here is an example of an actual maze definition:
 
-5
-....G
-.####
-...#S
-.#.#.
+5\
+....G\
+.####\
+...#S\
+.#.#.\
 .#...
 
-**The Bot**
-Given a maze configuration, you are to implement a bot that must find its way to the goal. The bot
-can only step on a space, and its movements are restricted to go one step up, down, left, or right.
-The simulation of the search must be illustrated to show which paths were explored before getting to
-the goal. The chosen path must be highlighted differently.
+## The Bot
 
-**Expected Program Behavior**
-You are to implement a program with the following behavior:
+Students are tasked with implementing a bot that can navigate the maze from the starting point `S` to the target location `G`. The bot can move one step up, down, left, or right but can only step on empty spaces. The program should illustrate the search process, highlight the chosen path, show all explored locations, and display the total number of states explored before finding the solution.
 
-• Once executed, the program loads and displays the maze defined in maze.txt. You’re free to
-choose the way the look of the maze as long as it is easily interpretable. However, don’t spend
-too much time and effort making the maze look good at the expense of the more important
-parts of the project.
+## Expected Program Behavior
 
-• The user can initiate the search. After which, the bot will find a path from the starting point
-(S) to the target location (G). The program should display (a) the final path taken by the bot, ,
-(b) all the locations that were explored by the implemented algorithm before arriving at the
-solution, and (c) the total number of states explored before the solution is found (or not found).
-• The program should also display the order in which the locations were explored by the
-algorithm. It is up to you how to want to display this. Some options are:
-    o Put a number to show the ordering
-    o Use an animation showing the step by step exploration of locations by the algorithm
-      (either timed or through a button to advance to the next step).
-• If there is no path to the target location, the program should state that a solution cannot be
-found, and must not crash.
+The program should:
+- Load and display the maze defined in `maze.txt`.
+- Allow the user to initiate the search for the bot to find a path to the goal.
+- Display the final path taken by the bot, all locations explored, and the total number of states explored.
+- Indicate if no path to the target location is found without crashing.
