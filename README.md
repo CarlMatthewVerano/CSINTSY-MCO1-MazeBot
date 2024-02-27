@@ -11,8 +11,8 @@ Maze
 The setup is an 𝑛 × 𝑛 maze, where 𝑛 is any number from 3 up to a maximum of 64. A maze
 configuration can be defined as a text file called maze.txt in the following format:
 
-n
-XXX
+n\
+XXX\
 XXX
 XXX
 
