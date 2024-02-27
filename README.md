@@ -1,5 +1,12 @@
 # CSINTSY-MCO1-MazeBot
 
+
+## Maze
+
+The project involves an \(n \times n\) maze, where \(n\) is any number from 3 up to a maximum of 64. A maze configuration is defined in a text file `maze.txt` with a specific format that includes a wall symbol `#`, an empty space symbol `.`, a starting location `S`, and a target location `G`. The maze will always contain exactly one `S` and one `G`.
+
+Example maze definition:
+
 Maze
 The setup is an 𝑛 × 𝑛 maze, where 𝑛 is any number from 3 up to a maximum of 64. A maze
 configuration can be defined as a text file called maze.txt in the following format:
